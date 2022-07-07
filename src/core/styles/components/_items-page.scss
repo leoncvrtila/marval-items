@@ -1,0 +1,9 @@
+.items-page {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .items-page {
+    display: block;
+  }
+}

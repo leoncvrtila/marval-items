@@ -1,0 +1,40 @@
+@import "./components/items-page";
+@import "./components/item-details";
+
+.App {
+  padding: 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label {
+  font-family: "Roboto", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .half-width {
+    width: 100%;
+  }
+}
